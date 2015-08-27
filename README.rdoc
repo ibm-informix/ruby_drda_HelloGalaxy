@@ -1,0 +1,26 @@
+== README
+
+Ruby DRDA Hello Galaxy Sample Application
+
+Uses ibm_db for ruby.  Documented at:
+	https://github.com/ibmdb/ruby-ibmdb
+
+Other locations for examples and documentation:
+	http://www.ibm.com/developerworks/cloud/library/cl-blograils-app/
+	http://www.ibm.com/developerworks/library/bd-ruby-bluacceleration-app/#N1011E
+	http://www-01.ibm.com/support/knowledgecenter/SSEPGG_10.5.0/com.ibm.swg.im.dbclient.ruby.doc/doc/t0052763.html?lang=en
+
+To deploy onto Bluemix:
+	1.  Create app on bluemix with ruby runtime
+	2.  Download starter code provided.
+	3.  Add gem 'ibm_db' and run bundle install
+	4.  Add appropriate code.  For this example, all code was placed in /app/helpers/application_helper.rb
+	5.  Push modified code to bluemix.
+
+
+
+
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
