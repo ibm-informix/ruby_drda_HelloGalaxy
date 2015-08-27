@@ -58,10 +58,10 @@ module ApplicationHelper
 =end
 		outPut = Array.new
 		# local connection info
-		host = "lxvm-ciiqa3.lenexa.ibm.com"
+		host = "bluemix.ibm.com"
 		port = "8412"
 		user = "informix"
-		password = "Ibm4pass"
+		password = "informix"
 		dbname = "rubydb"
 
 		tableName = "rubyDRDAGalaxy"
